@@ -1,0 +1,3 @@
+KEY1 双击点亮LED
+
+KEY2 单击点亮LED
