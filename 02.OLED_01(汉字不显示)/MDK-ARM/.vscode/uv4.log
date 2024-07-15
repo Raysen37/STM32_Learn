@@ -1,0 +1,21 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Software\Keil_v5\ARM\AC5\Bin'
+Build target 'HAL_11111'
+compiling bsp_oled.c...
+..\BSP\src\bsp_oled.c(76): warning:  #223-D: function "I2C_Start" declared implicitly
+  	I2C_Start();
+..\BSP\src\bsp_oled.c(77): warning:  #223-D: function "I2C_WriteByte" declared implicitly
+  	I2C_WriteByte(0x78);	// 从机地址
+..\BSP\src\bsp_oled.c(80): warning:  #223-D: function "I2C_Stop" declared implicitly
+  	I2C_Stop();
+..\BSP\src\bsp_oled.c(90): warning:  #223-D: function "I2C_Start" declared implicitly
+  	I2C_Start();
+..\BSP\src\bsp_oled.c(91): warning:  #223-D: function "I2C_WriteByte" declared implicitly
+  	I2C_WriteByte(0x78);			// 从机地址
+..\BSP\src\bsp_oled.c(94): warning:  #223-D: function "I2C_Stop" declared implicitly
+  	I2C_Stop();
+..\BSP\src\bsp_oled.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=4812 RO-data=2684 RW-data=16 ZI-data=1632  
+FromELF: creating hex file...
+"HAL_11111\HAL_11111.axf" - 0 Error(s), 6 Warning(s).
+Build Time Elapsed:  00:00:01
