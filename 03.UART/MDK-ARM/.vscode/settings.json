@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "bsp_oled.h": "c",
+        "main.h": "c",
+        "bsp_led.h": "c",
+        "stm32f1xx_hal.h": "c",
+        "ascii_font.h": "c",
+        "bsp_iic.h": "c",
+        "stdarg.h": "c",
+        "stdio.h": "c"
+    }
+}
